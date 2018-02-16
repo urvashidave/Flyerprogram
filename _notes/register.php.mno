@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_User_Request" value="name:CLIENT_CODE;datatype:string,name:USERNAME;datatype:string,name:PASSWORD;datatype:string,name:EMAIL;datatype:string,name:LOGIN_TYPE;datatype:string,name:LOGIN_GROUP;datatype:int,name:LOGIN_STORE;datatype:string,name:PHONE;datatype:string,name:FAX;datatype:string,name:CONTACT;datatype:string,name:CREATED_BY;datatype:string,name:CREATED_DATE;datatype:string,name:UPDATED_BY;datatype:string,name:UPDATED_DATE;datatype:string" />
+</info>

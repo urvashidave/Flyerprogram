@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_promotions" value="name:CLIENT_CODE;datatype:string,name:EVENT_NUMBER;datatype:string,name:EVENT_DESCRIPTION;datatype:string,name:BANNER_TYPE;datatype:string,name:EVENT_TYPE;datatype:string,name:PAGE_COUNT;datatype:int,name:DEALER_DEADLINE;datatype:string,name:ORDER_START;datatype:string,name:ORDER_END;datatype:string,name:SALES_START;datatype:string,name:SALES_END;datatype:string,name:FLYER_START;datatype:string,name:FLYER_END;datatype:string,name:PAYMENT;datatype:real,name:PRINT_COST;datatype:real,name:DISTRIBUTION_COST;datatype:real,name:CREATED_DATE;datatype:string,name:CREATED_BY;datatype:string,name:UPDATED_DATE;datatype:string,name:UPDATED_BY;datatype:string,name:SPONSORSHIP;datatype:string,name:VERSION;datatype:string,name:PROMO_LANGUAGE;datatype:string" />
+</info>

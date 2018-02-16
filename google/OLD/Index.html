@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Gogole Map Index Page</title>
+<style type="text/css">
+<!--
+#Layer1 {
+	position:absolute;
+	left:74px;
+	top:17px;
+	width:0px;
+	height:10px;
+	z-index:1;
+}
+.style1 {
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: "Arial Narrow";
+}
+#Layer2 {
+	position:absolute;
+	left:209px;
+	top:71px;
+	width:340px;
+	height:257px;
+	z-index:2;
+}
+#Layer3 {
+	position:absolute;
+	left:151px;
+	top:53px;
+	width:169px;
+	height:23px;
+	z-index:2;
+	background-color: #66FFFF;
+}
+#Layer4 {
+	position:absolute;
+	left:382px;
+	top:54px;
+	width:177px;
+	height:23px;
+	z-index:3;
+	background-color: #FFCC66;
+}
+#Layer5 {
+	position:absolute;
+	left:580px;
+	top:55px;
+	width:138px;
+	height:23px;
+	z-index:4;
+	background-color: #66FF99;
+}
+#Layer6 {
+	position:absolute;
+	left:738px;
+	top:54px;
+	width:138px;
+	height:24px;
+	z-index:5;
+	background-color: #FFFF99;
+}
+#Layer7 {
+	position:absolute;
+	left:892px;
+	top:53px;
+	width:138px;
+	height:25px;
+	z-index:6;
+	background-color: #FF9933;
+}
+.style2 {
+	color: #000000;
+	font-weight: bold;
+}
+#Layer8 {
+	position:absolute;
+	left:106px;
+	top:17px;
+	width:963px;
+	height:76px;
+	z-index:3;
+	background-color: #CCFFCC;
+	visibility: inherit;
+}
+#Layer9 {
+	position:absolute;
+	left:59px;
+	top:133px;
+	width:946px;
+	height:1142px;
+	z-index:8;
+}
+#Layer10 {
+	position:absolute;
+	left:138px;
+	top:17px;
+	width:136px;
+	height:75px;
+	z-index:9;
+}
+-->
+</style>
+</head>
+<body>
+<div id="Layer8"></div>
+<div id="Layer3">
+  <div align="center"><strong><a href="Store 261(3).html">Store 261 </a></strong></div>
+</div>
+<div id="Layer4">
+  <div align="center"><a href="Store 300.html"><strong>Store 300 </strong></a></div>
+</div>
+<div id="Layer5">
+  <div align="center"><a href="Store 261(Markers).html"><strong>Markers</strong></a></div>
+</div>
+<div id="Layer6">
+  <div align="center"><a href="Store 261(colors).html"><strong>Colours</strong></a></div>
+</div>
+<div id="Layer7">
+  <div align="center" class="style2"><a href="Store 261(POLY).html">POLYS</a></div>
+</div>
+
+
+<div id="Layer9"></div>
+ <div id="Layer10"><img src="Images/Horiz Gold (sm).jpg" width="130" height="70" /></div>
+ <style>
+      html, body, #map-canvas {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+    </style>
+   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+    
+	<script>
+ <style>
+      html, body, #map-canvas {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+    </style>
+	
+   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+    
+	<script>
+var map;
+
+function initialize() {
+  var myLatlng = new google.maps.LatLng(43.838, -79.331);
+  var mapOptions = {
+    zoom: 14,
+    center: myLatlng,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+ var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Hello World!'
+ });
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+ </head>
+  <body>
+    <div id="map-canvas"></div>
+</body>
+</html>
